@@ -19,7 +19,8 @@ nltk.data.path.append(os.path.abspath("nltk_data"))
 nltk.download('punkt')
 
 # Load intents from the JSON file
-file_path = os.path.abspath("D:\Internship\ChatBot_AICTE Cycle 4 Green skills & AI Skills4Future\Chatbot\intents.json")
+file_path = os.path.abspath("intents.json")
+# file_path = os.path.abspath("D:\Internship\ChatBot_AICTE Cycle 4 Green skills & AI Skills4Future\Chatbot\intents.json")
 with open(file_path, "r") as file:
     intents = json.load(file)
 
