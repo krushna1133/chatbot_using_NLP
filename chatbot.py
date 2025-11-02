@@ -11,7 +11,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from newsapi import NewsApiClient  # Import NewsAPI for trending news
 
-NEWS_API_KEY = "3eed1acd617c470b96573baab0a713fa"    #visit this -> https://newsapi.org/ website and create your own API key and add    
+NEWS_API_KEY = "ENTER_YOUR_API_KEY_HERE"    #visit this -> https://newsapi.org/ website and create your own API key and add    
 newsapi = NewsApiClient(api_key=NEWS_API_KEY)
 
 ssl._create_default_https_context = ssl._create_unverified_context
